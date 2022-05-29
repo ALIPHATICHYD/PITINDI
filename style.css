@@ -9,11 +9,18 @@ body{
 
 }
 
+/*Header begins*/
+
 header{
     background-image: url();
     height: 90vh;
     position: relative;
     color: white;
+}
+
+.img_pting{
+    width: 50px;
+    height: 50px;
 }
 
 .pting{
@@ -57,3 +64,159 @@ nav img {
     display: inline;
 }
 
+.navigations_li a{
+    text-decoration: none;
+    color: rgb(152, 26, 26);
+    font-size: 15px;
+}
+
+.navigations_li a:hover{
+    color: rgb(24, 21, 21);
+}
+
+header button{
+    background-color: #00D899;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+header button:hover {
+    background-color: #103b2f;
+}
+
+.head_text{
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 60%;
+}
+
+.head_text button {
+    padding: 8px 70px;
+}
+
+.head_text h1 {
+    margin-bottom: 30px;
+}
+
+.head_text p {
+    margin-bottom: 25px;
+}
+
+span {
+    color: #00D899;
+}
+
+.me_vect {
+    width: 60px;
+    position: absolute;
+    right: 5%;
+    bottom: 3%;
+}
+
+.me_vect img{
+    width: 100px;
+}
+
+/*Main starts here*/
+
+section {
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 55%;
+}
+
+.about .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.top .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+section article {
+    width: 80%;
+    margin-bottom: 50px;
+    flex-basis: 48%;
+}
+
+section img {
+    width: 50px;
+}
+
+.about .right {
+    padding-right: 60px;
+}
+
+.about .right p {
+    margin-top: 20px;
+}
+
+.about .right span,
+.footer-logo a {
+    color: black;
+    font-size:30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.reason .right div{
+    margin-bottom: 50px;
+}
+
+/*Footer starts here*/
+
+.foot {
+    background-color: #E3E3E380;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+.img_pting a{
+
+}
+
+.reach_us ul{
+    list-style: none;
+}
+
+.reach_us li {
+    margin: 20px 0;
+}
+
+.FAQ ul{
+    list-style-image: url();
+    
+}
+
+.FAQ li {
+    margin: 30px 0;
+    list-style: none;
+}
+
+.FAQ a {
+    text-decoration: none;
+    color: black;
+}
+
+.cR {
+    text-align: center;
+}
