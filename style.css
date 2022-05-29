@@ -223,7 +223,7 @@ section img {
 
 /*Media qurrey*/
 
-@media screen {
+@media screen (min-width="") (max-width="") {
     
 }
 
