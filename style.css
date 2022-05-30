@@ -5,6 +5,7 @@
 
 }
 
+
 body{
 
 }
@@ -52,6 +53,13 @@ nav::after {
 
 nav img {
     vertical-align: middle;
+}
+
+.pting_{
+    color: black;
+    font-size:30px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .navigations {
@@ -221,9 +229,25 @@ section img {
     text-align: center;
 }
 
+/*ANIMATIONS*/
+
+@keyframes wiggle{
+    from{
+        transform: rotateZ(0);
+    }
+
+    to{
+        transform: rotateZ(10deg);
+    }
+}
+
+button{
+    animation: wiggle 200ms easein 1s 8 alternate-reverse forwards;
+}
+
 /*Media qurrey*/
 
-@media screen (min-width="") (max-width="") {
+@media screen(min-width="") (max-width="") {
     
 }
 
